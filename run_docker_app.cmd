@@ -1,0 +1,1 @@
+docker run  -p 80:8081 Student:1.0
