@@ -1,7 +1,3 @@
-The main readme for tutorial is README.pdf
+Gilhari is a microservice that facilitates database-to-database, application-to-database, or database-to-application data transfer. It exposes a RElational State Transfer interface to provide APIs like GET, POST, UPDATE, and DELETE to perform operations on JSON objects. It is available in a Docker image and can be configured as required by the application and specific database structures. Architecturally, it sits in between an application and a database and provides APIs for modification and retrieval of data from the database. More information regarding the microservice can be found [here.](https://www.softwaretree.com/v1/products/gilhari/gilhari_introduction.php)
 
-This is for the purpose of modification of directories.
-Upon downloading, create a new directory called "libs" 
-  copy "json-20240303" directory, "json-20240303" jar file and "jxclasses" jar file to "libs"
-  within "libs" create another directory called "com" and another directory "softwaretree" in com
-    move "jdx" and "jx" directories to "softwaretree" directory
+This repository is a copy of the Gilhari microservice configured to post 50 JSON objects to a database. The overall functionality of the microservice extends way beyond this repository. The tutorial and instructions to use this configured copy is given in README.pdf within the repository. 
